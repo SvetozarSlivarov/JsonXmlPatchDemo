@@ -1,0 +1,81 @@
+<User>
+  <Id>42</Id>
+  <Username>svetozar</Username>
+  <Email>svetozar@example.com</Email>
+
+  <Profile>
+    <FirstName>Svetozar</FirstName>
+    <LastName>Slivarov</LastName>
+    <Age>22</Age>
+    <Contacts>
+      <Phone>+359888123456</Phone>
+      <Social>
+        <Facebook>svetozar.fb</Facebook>
+        <GitHub>svetozar-dev</GitHub>
+      </Social>
+    </Contacts>
+  </Profile>
+
+  <Roles>
+    <Role>user</Role>
+    <Role>editor</Role>
+  </Roles>
+
+  <Settings>
+    <Theme>light</Theme>
+    <Language>bg</Language>
+    <Privacy>
+      <Ads>true</Ads>
+      <Tracking>false</Tracking>
+    </Privacy>
+  </Settings>
+
+  <Projects>
+    <Project>
+      <Id>1</Id>
+      <Name>UniApp</Name>
+      <Tags>
+        <Tag>csharp</Tag>
+        <Tag>aspnet</Tag>
+        <Tag>sql</Tag>
+      </Tags>
+      <Team>
+        <Member>
+          <Id>101</Id>
+          <Name>Ivan</Name>
+          <Role>developer</Role>
+        </Member>
+        <Member>
+          <Id>102</Id>
+          <Name>Maria</Name>
+          <Role>designer</Role>
+        </Member>
+      </Team>
+    </Project>
+
+    <Project>
+      <Id>2</Id>
+      <Name>ChatBot</Name>
+      <Tags>
+        <Tag>nlp</Tag>
+        <Tag>ml</Tag>
+      </Tags>
+      <Team>
+        <Member>
+          <Id>103</Id>
+          <Name>Peter</Name>
+          <Role>developer</Role>
+        </Member>
+      </Team>
+    </Project>
+  </Projects>
+
+  <Statistics>
+    <Logins>152</Logins>
+    <LastLogin>2025-02-10T14:25:30Z</LastLogin>
+    <Activity>
+      <Posts>17</Posts>
+      <Comments>122</Comments>
+    </Activity>
+  </Statistics>
+</User>

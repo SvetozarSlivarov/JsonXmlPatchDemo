@@ -1,0 +1,11 @@
+[
+  { "op": "replace", "path": "/email", "value": "svetozar.slivarov@example.com" },
+  { "op": "add", "path": "/roles/-", "value": "admin" },
+  { "op": "replace", "path": "/profile/contacts/phone", "value": "+359888555777" },
+  { "op": "remove", "path": "/settings/privacy/ads" },
+  { "op": "add", "path": "/settings/privacy/dataSharing", "value": false },
+  { "op": "replace", "path": "/projects/0/name", "value": "University App" },
+  { "op": "add", "path": "/projects/1/tags/0", "value": "ai" },
+  { "op": "remove", "path": "/projects/0/team/1" },
+  { "op": "add", "path": "/statistics/activity/likes", "value": 350 }
+]

@@ -1,0 +1,28 @@
+<Patch>
+  <Replace path="/User/Email" value="svetozar.slivarov@example.com" />
+
+  <Add path="/User/Roles">
+    <Role>admin</Role>
+  </Add>
+
+  <Replace path="/User/Profile/Contacts/Phone" value="+359888555777" />
+
+  <Remove path="/User/Settings/Privacy/Ads" />
+
+  <Add path="/User/Settings/Privacy">
+    <DataSharing>false</DataSharing>
+  </Add>
+
+  <Replace path="/User/Projects/Project[1]/Name"
+           value="University App" />
+
+  <Add path="/User/Projects/Project[2]/Tags">
+    <Tag>ai</Tag>
+  </Add>
+
+  <Remove path="/User/Projects/Project[1]/Team/Member[2]" />
+
+  <Add path="/User/Statistics/Activity">
+    <Likes>350</Likes>
+  </Add>
+</Patch>

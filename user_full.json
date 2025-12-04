@@ -1,0 +1,53 @@
+{
+  "id": 42,
+  "username": "svetozar",
+  "email": "svetozar@example.com",
+  "profile": {
+    "firstName": "Svetozar",
+    "lastName": "Slivarov",
+    "age": 22,
+    "contacts": {
+      "phone": "+359888123456",
+      "social": {
+        "facebook": "svetozar.fb",
+        "github": "svetozar-dev"
+      }
+    }
+  },
+  "roles": ["user", "editor"],
+  "settings": {
+    "theme": "light",
+    "language": "bg",
+    "privacy": {
+      "ads": true,
+      "tracking": false
+    }
+  },
+  "projects": [
+    {
+      "id": 1,
+      "name": "UniApp",
+      "tags": ["csharp", "aspnet", "sql"],
+      "team": [
+        { "id": 101, "name": "Ivan", "role": "developer" },
+        { "id": 102, "name": "Maria", "role": "designer" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ChatBot",
+      "tags": ["nlp", "ml"],
+      "team": [
+        { "id": 103, "name": "Peter", "role": "developer" }
+      ]
+    }
+  ],
+  "statistics": {
+    "logins": 152,
+    "lastLogin": "2025-02-10T14:25:30Z",
+    "activity": {
+      "posts": 17,
+      "comments": 122
+    }
+  }
+}

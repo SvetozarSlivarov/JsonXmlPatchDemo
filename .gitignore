@@ -1,0 +1,10 @@
+bin/
+obj/
+
+*.cache
+*.dll
+*.exe
+*.pdb
+*.json.deps
+*.runtimeconfig.json
+*.AssemblyInfo.cs
