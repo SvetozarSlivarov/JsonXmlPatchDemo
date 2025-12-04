@@ -3,6 +3,14 @@
 This project demonstrates the differences between JSON Patch (RFC 6902) and a custom XML Patch mechanism implemented in C#.  
 Its purpose is to show that JSON Patch is a standardized, widely used method for partially updating JSON documents, while XML does not have an equivalent standard.
 
+## 📄 Full Documentation (PDF)
+
+The complete project documentation, including technical explanation, architecture, examples, and conclusions, is available here:
+
+👉 **[Download Documentation (PDF)](docs/Documentation.pdf)**
+
+---
+
 ## Project Goals
 - Demonstrate a real JSON Patch implementation in .NET  
 - Apply partial updates to a complex JSON structure  
@@ -22,8 +30,9 @@ JsonXmlPatchDemo/
 ├── user_full.xml
 ├── patch_full.xml
 │
-└── user_full_patched.json
-└── user_full_patched.xml
+│
+└── docs/
+└── Documentation.pdf
 
 ## Running the Project
 Run the following command:
